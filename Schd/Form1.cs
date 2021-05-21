@@ -205,13 +205,13 @@ namespace Schd
             DataGridViewTextBoxColumn burstTimeColumn = new DataGridViewTextBoxColumn();
             DataGridViewTextBoxColumn priorityColumn = new DataGridViewTextBoxColumn();
 
-            processColumn.HeaderText = "프로세스";
+            processColumn.HeaderText = "Process";
             processColumn.Name = "process";
-            arriveTimeColumn.HeaderText = "도착시간";
+            arriveTimeColumn.HeaderText = "ArriveTime";
             arriveTimeColumn.Name = "arriveTime";
-            burstTimeColumn.HeaderText = "실행시간";
+            burstTimeColumn.HeaderText = "BurstTime";
             burstTimeColumn.Name = "burstTime";
-            priorityColumn.HeaderText = "우선순위";
+            priorityColumn.HeaderText = "Priority";
             priorityColumn.Name = "priority";
 
             dataGridView1.Columns.Add(processColumn);
@@ -227,11 +227,11 @@ namespace Schd
             DataGridViewTextBoxColumn resultWaitingTimeColumn = new DataGridViewTextBoxColumn();
 
 
-            resultProcessColumn.HeaderText = "프로세스";
+            resultProcessColumn.HeaderText = "Process";
             resultProcessColumn.Name = "process";
-            resultBurstTimeColumn.HeaderText = "실행시간";
+            resultBurstTimeColumn.HeaderText = "BurstTime";
             resultBurstTimeColumn.Name = "resultBurstTimeColumn";
-            resultWaitingTimeColumn.HeaderText = "대기시간";
+            resultWaitingTimeColumn.HeaderText = "WaitingTime";
             resultWaitingTimeColumn.Name = "waitingTime";
 
             dataGridView2.Columns.Add(resultProcessColumn);

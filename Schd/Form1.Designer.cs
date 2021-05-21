@@ -97,7 +97,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(29, 12);
             this.label1.TabIndex = 5;
-            this.label1.Text = "입력";
+            this.label1.Text = "Input";
             // 
             // label2
             // 
@@ -106,7 +106,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(29, 12);
             this.label2.TabIndex = 6;
-            this.label2.Text = "출력";
+            this.label2.Text = "Output";
             // 
             // openFileDialog1
             // 
@@ -130,7 +130,7 @@
             this.TRTime.Name = "TRTime";
             this.TRTime.Size = new System.Drawing.Size(89, 12);
             this.TRTime.TabIndex = 8;
-            this.TRTime.Text = "전체 실행시간 :";
+            this.TRTime.Text = "Total Process Time :";
             this.TRTime.Click += new System.EventHandler(this.TRTime_Click);
             // 
             // avgRT
@@ -140,7 +140,7 @@
             this.avgRT.Name = "avgRT";
             this.avgRT.Size = new System.Drawing.Size(89, 12);
             this.avgRT.TabIndex = 9;
-            this.avgRT.Text = "평균 대기시간 :";
+            this.avgRT.Text = "Average Wating Time :";
             // 
             // FCFS
             // 
@@ -204,7 +204,7 @@
             this.groupBox1.Size = new System.Drawing.Size(592, 50);
             this.groupBox1.TabIndex = 14;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "알고리즘 선택";
+            this.groupBox1.Text = "Choose Algorithm";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // SRTF
