@@ -23,12 +23,17 @@ Download the latest build from [the releases page](https://github.com/ImMoa/CPU-
 - FIFO, Optimal, Least Recently Used(LRU), Least Frequently Used(LFU), Most frequently Used(MFU)
 
 # Explaination
-
+![init](https://user-images.githubusercontent.com/83941587/119228651-ee9c5c80-bb4e-11eb-9c18-c2aedb53f162.png)
 Run the program, you can see like this.
 Also can Choose algorithm you want to simulate.
 
-You can input 'Reference String' manually but also generate a random string to click 'Random' button.
+![input](https://user-images.githubusercontent.com/83941587/119228683-1ab7dd80-bb4f-11eb-929b-2c2825dc0a35.png)
+You can input process list with .txt file.
 
+![image](https://user-images.githubusercontent.com/83941587/119228673-0ffd4880-bb4f-11eb-8423-d7f62df49f6b.png)
+This is the format .txt file.
+
+![res](https://user-images.githubusercontent.com/83941587/119228700-34f1bb80-bb4f-11eb-83e8-b1255c511d10.png)
 Click the 'Run' button, then can check result with graph.
 
 
