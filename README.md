@@ -20,7 +20,7 @@ Download the latest build from [the releases page](https://github.com/ImMoa/CPU-
 
 ### Support 5 CPU Scheduling Algorithm
 
-- FIFO, Optimal, Least Recently Used(LRU), Least Frequently Used(LFU), Most frequently Used(MFU)
+- FCFS(First Come First Served), Shortest Job, SRTF(Shortest Remaining Time First), Priority, Round Robin
 
 # Explaination
 
